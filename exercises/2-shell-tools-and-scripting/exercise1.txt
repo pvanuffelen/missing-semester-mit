@@ -1,1 +1,1 @@
-ls -lahc
+ls -lahct
