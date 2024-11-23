@@ -11,7 +11,7 @@ err_file="error.log"
 while true;do
   counter=$((counter + 1))
   
-  ./my-script.sh > temp_out.log 2> temp_err.log
+  ./my_script.sh > temp_out.log 2> temp_err.log
   exit_code=$?
 
   if [[ ${exit_code} -ne 0 ]]; then
